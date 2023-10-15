@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="player-container">
+      <div class="img-container">
+        <img src="./images/project-1.jpg" alt="Album Art" />
+      </div>
+      <h2 id="title">Night Away</h2>
+      <h3 id="artist">A1 X J1 Ft Tion Wayne</h3>
+      <audio src="./music/project-1.mp3"></audio>
+
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="duration-wrapper">
+          <span id="current-time">0:00</span>
+          <span id="duration">3:36</span>
+        </div>
+      </div>
+
+      <div class="player-controls">
+        <i class="bx bx-skip-previous" id="prev" title="Previous"></i>
+        <i class="bx bx-play main-button" id="play" title="Play"></i>
+        <i class="bx bx-skip-next" id="next" title="Next"></i>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
